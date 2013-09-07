@@ -1,0 +1,456 @@
+com.recite.assist.AibingLogic -> com.recite.a.a:
+    com.recite.sql.AibingOperate aibingOperate -> a
+    java.util.TimerTask task -> b
+    com.recite.assist.AibingLogic getInstance(android.content.Context) -> a
+    void addWordstoQueue() -> a
+    java.util.TimerTask getTask() -> b
+    void init() -> e
+    void loadOldWord() -> f
+    void rememberListener() -> c
+    void notRememberlistener() -> d
+    com.recite.entity.Word getNextWord() -> g
+    void removeExistsFromQueue() -> h
+    void dealFileWords() -> i
+    void dealQueue() -> j
+    void dealNotReWords() -> k
+    void insert(com.recite.entity.Word,java.util.List) -> a
+com.recite.assist.AibingLogic$1 -> com.recite.a.b:
+    com.recite.assist.AibingLogic this$0 -> a
+    void run() -> run
+com.recite.assist.FileNameFileFilter -> com.recite.a.c:
+    java.lang.String fileName -> a
+    boolean accept(java.io.File) -> accept
+com.recite.assist.FileOperate -> com.recite.a.d:
+    java.io.File[] mergeDirectoryFile_internals -> a
+    java.io.File[] mergeDirectoryFile_externals -> b
+    java.io.File[] splitDirectoryFiles -> c
+    com.recite.sql.AllUnitNameOperate allUnitNameOperate -> d
+    android.content.Context context -> e
+    void init() -> c
+    void makedir() -> d
+    com.recite.assist.FileOperate getInstance(android.content.Context) -> a
+    boolean importFile() -> a
+    boolean splitAll(int) -> a
+    boolean isExtracted(java.lang.String,java.util.List) -> a
+    void extract(java.io.File[],int) -> a
+    void split(java.io.File,int) -> a
+    void writeInto(java.io.RandomAccessFile,java.io.RandomAccessFile,int) -> a
+    void importUnitList(java.io.File,java.lang.String,int) -> a
+    boolean isExternalStorageWritable() -> b
+    java.util.List readWords(java.lang.String,int,int) -> a
+    java.io.File createTempMp3(com.recite.entity.Word,int,int) -> a
+com.recite.assist.HelpMain -> com.recite.a.e:
+    com.recite.assist.HelpMain instance -> a
+    com.recite.assist.HelpMain getInstance() -> a
+    java.util.List mapUnitName(java.util.List,java.util.HashMap) -> a
+    void init(android.app.Activity) -> a
+    void showToast(java.lang.String,android.content.Context) -> a
+    void cancelToast() -> b
+    void setUserName(android.app.Activity) -> b
+    void setGrade(android.app.Activity) -> c
+com.recite.assist.NotbookLogic -> com.recite.a.f:
+    com.recite.assist.NotbookLogic instance -> a
+    com.recite.assist.NotbookLogic getInstance() -> a
+    boolean addToNotbook(com.recite.entity.Word) -> a
+    boolean wordIsAdd(com.recite.entity.Word) -> b
+com.recite.assist.SuffixFileFilter -> com.recite.a.g:
+    java.lang.String postfixString -> a
+    boolean accept(java.io.File) -> accept
+com.recite.assist.Tool -> com.recite.a.h:
+    boolean $assertionsDisabled -> a
+    int byteToint(byte[]) -> a
+    int[] byteArrayToint(byte[]) -> b
+    java.lang.String removeSuffix(java.lang.String) -> a
+com.recite.assist.Values -> com.recite.a.i:
+    int apkType -> a
+    java.lang.String userNameString -> b
+    java.lang.String gradeString -> c
+    int grade -> d
+    int currentGrade -> e
+    java.lang.String rootPathString -> f
+    java.lang.String[] mergeFilePaths_INTERNAL -> g
+    java.lang.String[] mergeFilePaths_EXTERNAL -> h
+    java.lang.String[] splitLexiconPaths -> i
+    java.lang.String mergeFilePostfixString -> j
+    java.util.List newnotebookwords -> k
+    java.util.List oldnotebookWords -> l
+    java.util.List removedwords -> m
+    java.util.List fileWords -> n
+    java.util.List myTimes -> o
+    java.lang.String bookNameString -> p
+    java.lang.String lexiconNameString -> q
+    java.lang.String PREFS_NAME_STRING -> r
+    int unitIndex -> s
+    boolean aibingOpen -> t
+    java.util.List aibingOldWords -> u
+    java.util.List aibingInsertWords -> v
+    java.util.List aibingUpdatedWords -> w
+    java.util.List aibingNotRememberWords -> x
+    java.util.List aibingDeleteWords -> y
+    java.util.List aibingQueueWords -> z
+    com.recite.entity.Word currentWord -> A
+    int indexFileWords -> B
+    int indexInsertWords -> C
+    int indexUpdateWords -> D
+    int indexOldWords -> E
+    int typeCurrenct -> F
+    android.widget.Toast toastOnlyOne -> G
+    java.util.List allUnitNameStrings -> H
+    java.util.HashMap allUnitNameMap -> I
+    int randCount -> J
+    boolean NeedImportLexicon -> K
+    void init() -> a
+com.recite.entity.MyTime -> com.recite.b.a:
+    int number -> a
+    int type -> b
+    long getMillisecond() -> a
+com.recite.entity.Word -> com.recite.b.b:
+    java.lang.String name -> a
+    java.lang.String explain -> b
+    java.lang.String soundmark -> c
+    java.lang.String bookName -> d
+    int enStart -> e
+    int enlen -> f
+    int chStart -> g
+    int chlen -> h
+    int reviewTimes -> i
+    long nextReviewTime -> j
+    boolean $assertionsDisabled -> k
+    void setMp3Position(java.lang.String) -> a
+    boolean setReviewTime() -> a
+    boolean timeToReview() -> b
+    void resetTime() -> c
+    boolean equals(com.recite.entity.Word) -> a
+com.recite.media.PlayMp3 -> com.recite.c.a:
+    com.recite.media.PlayMp3 instance -> a
+    java.io.File mtempMp3File -> b
+    android.media.MediaPlayer mMediaPlayer01 -> c
+    com.recite.media.PlayMp3 getInstance() -> a
+    void PlayMp3(android.content.Context,com.recite.entity.Word,int,int) -> a
+    void mediaPlayersetListener() -> b
+    android.media.MediaPlayer access$0(com.recite.media.PlayMp3) -> a
+    java.io.File access$1(com.recite.media.PlayMp3) -> b
+    void access$2(com.recite.media.PlayMp3,android.media.MediaPlayer) -> a
+com.recite.media.PlayMp3$1 -> com.recite.c.b:
+    com.recite.media.PlayMp3 this$0 -> a
+    void onCompletion(android.media.MediaPlayer) -> onCompletion
+com.recite.sql.AibingOperate -> com.recite.d.a:
+    android.content.Context context -> a
+    com.recite.sql.AibingOperate getInstance(android.content.Context) -> a
+    void insert(java.util.List) -> a
+    java.util.List query() -> a
+    void delete(java.util.List) -> b
+    void update(java.util.List) -> c
+com.recite.sql.AllUnitNameOperate -> com.recite.d.b:
+    android.content.Context context -> a
+    com.recite.sql.AllUnitNameOperate instance -> b
+    com.recite.sql.AllUnitNameOperate getInstance(android.content.Context) -> a
+    void insert(java.util.List,int) -> a
+    java.util.List query(int) -> a
+com.recite.sql.FeedReaderContract -> com.recite.d.c:
+com.recite.sql.FeedReaderContract$Aibing -> com.recite.d.d:
+    java.lang.String TABLE_NAME -> a
+    java.lang.String COLUMN_WORD -> b
+    java.lang.String COLUMN_EXPLAIN -> c
+    java.lang.String COLUMN_SOUNDMARK -> d
+    java.lang.String COLUMN_EMP3S -> e
+    java.lang.String COLUMN_EMP3L -> f
+    java.lang.String COLUMN_CMP3S -> g
+    java.lang.String COLUMN_CMP3L -> h
+    java.lang.String COLUMN_BOOKNAME -> i
+    java.lang.String COLUMN_REVIEW_TIMES -> j
+    java.lang.String COLUMN_NEXT_REVIEW_TIME -> k
+    java.lang.String GRADE -> l
+com.recite.sql.FeedReaderContract$AllUnitName -> com.recite.d.e:
+    java.lang.String TABLE_NAME -> a
+    java.lang.String COLUMN_UNIT_NAME -> b
+    java.lang.String GRADE -> c
+com.recite.sql.FeedReaderContract$ImportedBookName -> com.recite.d.f:
+    java.lang.String TABLE_NAME -> a
+    java.lang.String COLUMN_BOOK_NAME -> b
+    java.lang.String GRADE -> c
+com.recite.sql.FeedReaderContract$Notebook -> com.recite.d.g:
+    java.lang.String TABLE_NAME -> a
+    java.lang.String COLUMN_WORD -> b
+    java.lang.String COLUMN_EXPLAIN -> c
+    java.lang.String COLUMN_SOUNDMARK -> d
+    java.lang.String COLUMN_EMP3S -> e
+    java.lang.String COLUMN_EMP3L -> f
+    java.lang.String COLUMN_CMP3S -> g
+    java.lang.String COLUMN_CMP3L -> h
+    java.lang.String COLUMN_BOOKNAME -> i
+com.recite.sql.ImportedBookOperate -> com.recite.d.h:
+    android.content.Context context -> a
+    com.recite.sql.ImportedBookOperate instance -> b
+    com.recite.sql.ImportedBookOperate getInstance(android.content.Context) -> a
+    void insert(java.util.List,int) -> a
+    java.util.List query(int) -> a
+com.recite.sql.MYSQLOpenHelper -> com.recite.d.i:
+    java.lang.String DATABASENAME -> a
+    java.lang.String SQL_CREATE_AllUnitName -> b
+    java.lang.String SQL_CREATE_ImportedBOOKName -> c
+    java.lang.String SQL_CREATE_Notebook -> d
+    java.lang.String SQL_CREATE_Aibing -> e
+    void onCreate(android.database.sqlite.SQLiteDatabase) -> onCreate
+    void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int) -> onUpgrade
+com.recite.sql.NotebookOperate -> com.recite.d.j:
+    android.content.Context context -> a
+    void insert(java.util.List) -> a
+    java.util.List query() -> a
+    void delete(java.util.List) -> b
+com.recite.widgets.AlwaysMarqueeTextView -> com.recite.widgets.AlwaysMarqueeTextView:
+    boolean isFocused() -> isFocused
+com.weixue.api.AppRuntimeActivity -> com.a.a.a:
+    com.xiaobawang.qita.guiji.api.AppRuntimeInfoHelper mAppRuntimeInfoHelper -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void onStart() -> onStart
+    void onPause() -> onPause
+    java.lang.String getAppName() -> a
+com.weixue.api.WeiXueActivity -> com.a.a.b:
+    void onCreate(android.os.Bundle) -> onCreate
+    void onStart() -> onStart
+    void onRestart() -> onRestart
+    void onPause() -> onPause
+    void onStop() -> onStop
+    void onDestroy() -> onDestroy
+com.xiaobawang.launcher.api.WeiXueUtil -> com.xiaobawang.a.a.a:
+    void verify(android.app.Activity) -> a
+com.xiaobawang.qita.geren.api.UserInfo -> com.xiaobawang.b.a.a.a:
+    java.lang.String[] THREE_GRADES -> a
+    java.lang.String[] FOUR_GRADES -> b
+    java.lang.String[] FIVE_GRADES -> c
+    java.lang.String[] SIX_GRADES -> d
+    long _id -> e
+    java.lang.String username -> f
+    java.lang.String password -> g
+    java.lang.String name -> h
+    java.lang.String school -> i
+    java.lang.String platform -> j
+    java.lang.String schooling -> k
+    java.lang.String grade -> l
+    java.lang.String courseversion -> m
+    java.lang.String avatarpath -> n
+    java.lang.String gender -> o
+    java.lang.String birthday -> p
+    java.lang.String hometown -> q
+    java.lang.String qq -> r
+    java.lang.String signature -> s
+    java.lang.String email -> t
+    java.lang.String hobby -> u
+    long level -> v
+    int getGrade() -> a
+com.xiaobawang.qita.geren.api.UserInfoHelper -> com.xiaobawang.b.a.a.b:
+    android.app.Activity mActivity -> a
+    android.content.ContentResolver mContentResolver -> b
+    com.xiaobawang.qita.geren.api.UserInfo getCurrentUserInfo() -> a
+    long getCurrentUserId() -> b
+    com.xiaobawang.qita.geren.api.UserInfo query(long) -> a
+com.xiaobawang.qita.geren.api.Users -> com.xiaobawang.b.a.a.c:
+com.xiaobawang.qita.geren.api.Users$User -> com.xiaobawang.b.a.a.d:
+    android.net.Uri CONTENT_URI -> a
+com.xiaobawang.qita.guiji.api.AppRuntimeInfoHelper -> com.xiaobawang.b.b.a.a:
+    android.app.Activity mActivity -> a
+    java.lang.String mUserName -> b
+    java.lang.String mAppName -> c
+    java.lang.String mPackageName -> d
+    long mStartTime -> e
+    long mEndTime -> f
+    java.lang.String[] mProjection -> g
+    void startCalculateRuntime() -> a
+    java.lang.String getDate() -> b
+    void stopCalculateRuntime() -> c
+com.xiaobawang.qita.guiji.api.AppRuntimeInfos -> com.xiaobawang.b.b.a.b:
+com.xiaobawang.qita.guiji.api.AppRuntimeInfos$AppRuntimeInfo -> com.xiaobawang.b.b.a.c:
+    android.net.Uri CONTENT_URI -> a
+com.xiaobawang.util.api.AppUtil -> com.xiaobawang.c.a.a:
+    android.content.Intent getOpenAppIntent(android.app.Activity,java.lang.String) -> a
+com.xiaobawang.util.api.DownloadMoreUtil -> com.xiaobawang.c.a.b:
+    void open(android.app.Activity,int) -> a
+com.xiaobawang.zhongxue.yingyu.beidanci.AibingActivity -> com.xiaobawang.zhongxue.yingyu.beidanci.AibingActivity:
+    android.widget.Button mbriefButton -> b
+    android.widget.Button mdefaultButton -> c
+    android.widget.ListView mlistView -> d
+    android.widget.ToggleButton mToggleButton -> e
+    void onCreate(android.os.Bundle) -> onCreate
+com.xiaobawang.zhongxue.yingyu.beidanci.AibingActivity$1 -> com.xiaobawang.zhongxue.yingyu.beidanci.a:
+    com.xiaobawang.zhongxue.yingyu.beidanci.AibingActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.xiaobawang.zhongxue.yingyu.beidanci.AibingActivity$2 -> com.xiaobawang.zhongxue.yingyu.beidanci.b:
+    com.xiaobawang.zhongxue.yingyu.beidanci.AibingActivity this$0 -> a
+    void onCheckedChanged(android.widget.CompoundButton,boolean) -> onCheckedChanged
+com.xiaobawang.zhongxue.yingyu.beidanci.BriefIntroductionActivity -> com.xiaobawang.zhongxue.yingyu.beidanci.BriefIntroductionActivity:
+    android.webkit.WebView mWebView -> b
+    void onCreate(android.os.Bundle) -> onCreate
+com.xiaobawang.zhongxue.yingyu.beidanci.ListViewModeActivity -> com.xiaobawang.zhongxue.yingyu.beidanci.ListViewModeActivity:
+    android.widget.ListView mlistView -> b
+    android.widget.TextView mTextView -> c
+    void onCreate(android.os.Bundle) -> onCreate
+com.xiaobawang.zhongxue.yingyu.beidanci.MainActivity -> com.xiaobawang.zhongxue.yingyu.beidanci.MainActivity:
+    com.recite.assist.FileOperate fileOperate -> b
+    com.recite.sql.AllUnitNameOperate allUnitNameOperate -> c
+    com.recite.assist.HelpMain helpMain -> d
+    android.widget.Button mbutton_selectLexicon -> e
+    android.widget.TextView mtextview_word -> f
+    android.widget.TextView mtextiew_soundmark -> g
+    android.widget.TextView mtextview_explain -> h
+    android.widget.Button mbutton_addToNotebook -> i
+    android.widget.Button mbutton_engmp3 -> j
+    android.widget.Button mbutton_remember -> k
+    android.widget.Button mbutton_notRemember -> l
+    android.widget.Button mbutton_notbook -> m
+    android.widget.Button mbutton_aibing -> n
+    android.widget.Button mbutton_listview_mode -> o
+    java.util.Timer timer -> p
+    boolean mplaychMp3 -> q
+    android.view.View mNotbook_toast_view -> r
+    android.widget.TextView mNotbook_toast_textView -> s
+    android.app.ProgressDialog progressdialog -> t
+    int openNotbookDirectState -> u
+    android.os.Handler MyHandler -> v
+    void onCreate(android.os.Bundle) -> onCreate
+    void setWidgetListener() -> b
+    void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+    void showSelectLexicon() -> c
+    void importData() -> d
+    void selectedLexicon(int,int) -> a
+    void updateWordView() -> e
+    void loadData() -> f
+    void saveData() -> g
+    void onDestroy() -> onDestroy
+    void onStart() -> onStart
+    int getOpenNotbookDirect() -> h
+    void access$0(com.xiaobawang.zhongxue.yingyu.beidanci.MainActivity) -> a
+    void access$1(com.xiaobawang.zhongxue.yingyu.beidanci.MainActivity) -> b
+    boolean access$2(com.xiaobawang.zhongxue.yingyu.beidanci.MainActivity) -> c
+    android.widget.TextView access$3(com.xiaobawang.zhongxue.yingyu.beidanci.MainActivity) -> d
+    void access$4(com.xiaobawang.zhongxue.yingyu.beidanci.MainActivity,boolean) -> a
+    android.widget.TextView access$5(com.xiaobawang.zhongxue.yingyu.beidanci.MainActivity) -> e
+    android.view.View access$6(com.xiaobawang.zhongxue.yingyu.beidanci.MainActivity) -> f
+    android.app.ProgressDialog access$7(com.xiaobawang.zhongxue.yingyu.beidanci.MainActivity) -> g
+    android.os.Handler access$8(com.xiaobawang.zhongxue.yingyu.beidanci.MainActivity) -> h
+com.xiaobawang.zhongxue.yingyu.beidanci.MainActivity$1 -> com.xiaobawang.zhongxue.yingyu.beidanci.c:
+    com.xiaobawang.zhongxue.yingyu.beidanci.MainActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.xiaobawang.zhongxue.yingyu.beidanci.MainActivity$10 -> com.xiaobawang.zhongxue.yingyu.beidanci.d:
+    com.xiaobawang.zhongxue.yingyu.beidanci.MainActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.xiaobawang.zhongxue.yingyu.beidanci.MainActivity$11 -> com.xiaobawang.zhongxue.yingyu.beidanci.e:
+    com.xiaobawang.zhongxue.yingyu.beidanci.MainActivity this$0 -> a
+    void run() -> run
+com.xiaobawang.zhongxue.yingyu.beidanci.MainActivity$2 -> com.xiaobawang.zhongxue.yingyu.beidanci.f:
+    com.xiaobawang.zhongxue.yingyu.beidanci.MainActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.xiaobawang.zhongxue.yingyu.beidanci.MainActivity$3 -> com.xiaobawang.zhongxue.yingyu.beidanci.g:
+    com.xiaobawang.zhongxue.yingyu.beidanci.MainActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.xiaobawang.zhongxue.yingyu.beidanci.MainActivity$4 -> com.xiaobawang.zhongxue.yingyu.beidanci.h:
+    com.xiaobawang.zhongxue.yingyu.beidanci.MainActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.xiaobawang.zhongxue.yingyu.beidanci.MainActivity$5 -> com.xiaobawang.zhongxue.yingyu.beidanci.i:
+    com.xiaobawang.zhongxue.yingyu.beidanci.MainActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.xiaobawang.zhongxue.yingyu.beidanci.MainActivity$6 -> com.xiaobawang.zhongxue.yingyu.beidanci.j:
+    com.xiaobawang.zhongxue.yingyu.beidanci.MainActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.xiaobawang.zhongxue.yingyu.beidanci.MainActivity$7 -> com.xiaobawang.zhongxue.yingyu.beidanci.k:
+    com.xiaobawang.zhongxue.yingyu.beidanci.MainActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.xiaobawang.zhongxue.yingyu.beidanci.MainActivity$8 -> com.xiaobawang.zhongxue.yingyu.beidanci.l:
+    com.xiaobawang.zhongxue.yingyu.beidanci.MainActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.xiaobawang.zhongxue.yingyu.beidanci.MainActivity$9 -> com.xiaobawang.zhongxue.yingyu.beidanci.m:
+    com.xiaobawang.zhongxue.yingyu.beidanci.MainActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.xiaobawang.zhongxue.yingyu.beidanci.NotebookActivity -> com.xiaobawang.zhongxue.yingyu.beidanci.NotebookActivity:
+    android.widget.ListView mlistView -> b
+    void onCreate(android.os.Bundle) -> onCreate
+    void onPause() -> onPause
+com.xiaobawang.zhongxue.yingyu.beidanci.SelectLexiconDialogActivity -> com.xiaobawang.zhongxue.yingyu.beidanci.SelectLexiconDialogActivity:
+    java.util.List mGradeNames -> b
+    android.widget.Spinner mSpinner -> c
+    android.widget.ListView mListView -> d
+    android.widget.ArrayAdapter listViewAdapter -> e
+    android.widget.Button mDownloadButton -> f
+    int mCurrentGrade_temp -> g
+    void onCreate(android.os.Bundle) -> onCreate
+    void init() -> b
+    void initGradeName() -> c
+    void getLexiconName(int) -> a
+    int access$0(com.xiaobawang.zhongxue.yingyu.beidanci.SelectLexiconDialogActivity) -> a
+    void access$1(com.xiaobawang.zhongxue.yingyu.beidanci.SelectLexiconDialogActivity,int) -> a
+    void access$2(com.xiaobawang.zhongxue.yingyu.beidanci.SelectLexiconDialogActivity,int) -> b
+    android.widget.ArrayAdapter access$3(com.xiaobawang.zhongxue.yingyu.beidanci.SelectLexiconDialogActivity) -> b
+com.xiaobawang.zhongxue.yingyu.beidanci.SelectLexiconDialogActivity$1 -> com.xiaobawang.zhongxue.yingyu.beidanci.n:
+    com.xiaobawang.zhongxue.yingyu.beidanci.SelectLexiconDialogActivity this$0 -> a
+    void onItemSelected(android.widget.AdapterView,android.view.View,int,long) -> onItemSelected
+    void onNothingSelected(android.widget.AdapterView) -> onNothingSelected
+com.xiaobawang.zhongxue.yingyu.beidanci.SelectLexiconDialogActivity$2 -> com.xiaobawang.zhongxue.yingyu.beidanci.o:
+    com.xiaobawang.zhongxue.yingyu.beidanci.SelectLexiconDialogActivity this$0 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.xiaobawang.zhongxue.yingyu.beidanci.SelectLexiconDialogActivity$3 -> com.xiaobawang.zhongxue.yingyu.beidanci.p:
+    com.xiaobawang.zhongxue.yingyu.beidanci.SelectLexiconDialogActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.xiaobawang.zhongxue.yingyu.beidanci.adapter.AibingAdapter -> com.xiaobawang.zhongxue.yingyu.beidanci.a.a:
+    android.view.LayoutInflater mInflater -> a
+    android.content.Context context -> b
+    java.lang.String[] preStrings -> c
+    int getCount() -> getCount
+    java.lang.Object getItem(int) -> getItem
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+com.xiaobawang.zhongxue.yingyu.beidanci.adapter.AibingAdapter$ViewHolder -> com.xiaobawang.zhongxue.yingyu.beidanci.a.b:
+    android.widget.TextView preStringTextView -> a
+    android.widget.EditText numberEditText -> b
+    android.widget.TextView typeTextView -> c
+com.xiaobawang.zhongxue.yingyu.beidanci.adapter.ListViewModeAdapter -> com.xiaobawang.zhongxue.yingyu.beidanci.a.c:
+    android.view.LayoutInflater mInflater -> a
+    java.util.List words -> b
+    android.content.Context context -> c
+    int getCount() -> getCount
+    java.lang.Object getItem(int) -> getItem
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    android.content.Context access$0(com.xiaobawang.zhongxue.yingyu.beidanci.adapter.ListViewModeAdapter) -> a
+    java.util.List access$1(com.xiaobawang.zhongxue.yingyu.beidanci.adapter.ListViewModeAdapter) -> b
+com.xiaobawang.zhongxue.yingyu.beidanci.adapter.ListViewModeAdapter$1 -> com.xiaobawang.zhongxue.yingyu.beidanci.a.d:
+    com.xiaobawang.zhongxue.yingyu.beidanci.adapter.ListViewModeAdapter this$0 -> a
+    int val$index -> b
+    void onClick(android.view.View) -> onClick
+com.xiaobawang.zhongxue.yingyu.beidanci.adapter.ListViewModeAdapter$2 -> com.xiaobawang.zhongxue.yingyu.beidanci.a.e:
+    com.xiaobawang.zhongxue.yingyu.beidanci.adapter.ListViewModeAdapter this$0 -> a
+    int val$index -> b
+    void onClick(android.view.View) -> onClick
+com.xiaobawang.zhongxue.yingyu.beidanci.adapter.ListViewModeAdapter$3 -> com.xiaobawang.zhongxue.yingyu.beidanci.a.f:
+    com.xiaobawang.zhongxue.yingyu.beidanci.adapter.ListViewModeAdapter this$0 -> a
+    int val$index -> b
+    void onClick(android.view.View) -> onClick
+com.xiaobawang.zhongxue.yingyu.beidanci.adapter.ListViewModeAdapter$ViewHolder -> com.xiaobawang.zhongxue.yingyu.beidanci.a.g:
+    android.widget.TextView wordTextView -> a
+    android.widget.TextView explainTextView -> b
+    android.widget.Button addToNotebook -> c
+com.xiaobawang.zhongxue.yingyu.beidanci.adapter.NotebookAdapter -> com.xiaobawang.zhongxue.yingyu.beidanci.a.h:
+    android.view.LayoutInflater mInflater -> a
+    java.util.List words -> b
+    android.content.Context context -> c
+    int getCount() -> getCount
+    java.lang.Object getItem(int) -> getItem
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    android.content.Context access$0(com.xiaobawang.zhongxue.yingyu.beidanci.adapter.NotebookAdapter) -> a
+    java.util.List access$1(com.xiaobawang.zhongxue.yingyu.beidanci.adapter.NotebookAdapter) -> b
+com.xiaobawang.zhongxue.yingyu.beidanci.adapter.NotebookAdapter$1 -> com.xiaobawang.zhongxue.yingyu.beidanci.a.i:
+    com.xiaobawang.zhongxue.yingyu.beidanci.adapter.NotebookAdapter this$0 -> a
+    int val$index -> b
+    void onClick(android.view.View) -> onClick
+com.xiaobawang.zhongxue.yingyu.beidanci.adapter.NotebookAdapter$2 -> com.xiaobawang.zhongxue.yingyu.beidanci.a.j:
+    com.xiaobawang.zhongxue.yingyu.beidanci.adapter.NotebookAdapter this$0 -> a
+    int val$index -> b
+    void onClick(android.view.View) -> onClick
+com.xiaobawang.zhongxue.yingyu.beidanci.adapter.NotebookAdapter$3 -> com.xiaobawang.zhongxue.yingyu.beidanci.a.k:
+    com.xiaobawang.zhongxue.yingyu.beidanci.adapter.NotebookAdapter this$0 -> a
+    int val$index -> b
+    void onClick(android.view.View) -> onClick
+com.xiaobawang.zhongxue.yingyu.beidanci.adapter.NotebookAdapter$ViewHolder -> com.xiaobawang.zhongxue.yingyu.beidanci.a.l:
+    android.widget.TextView wordTextView -> a
+    android.widget.TextView explainTextView -> b
+    android.widget.Button deleteButton -> c

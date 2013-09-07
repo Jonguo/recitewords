@@ -1,0 +1,116 @@
+com.recite.widgets.AlwaysMarqueeTextView
+com.recite.widgets.AlwaysMarqueeTextView: AlwaysMarqueeTextView(android.content.Context)
+com.recite.widgets.AlwaysMarqueeTextView: AlwaysMarqueeTextView(android.content.Context,android.util.AttributeSet)
+com.recite.widgets.AlwaysMarqueeTextView: AlwaysMarqueeTextView(android.content.Context,android.util.AttributeSet,int)
+com.weixue.api.AppRuntimeActivity: AppRuntimeActivity()
+com.weixue.api.WeiXueActivity: WeiXueActivity()
+com.xiaobawang.zhongxue.yingyu.beidanci.AibingActivity
+com.xiaobawang.zhongxue.yingyu.beidanci.AibingActivity: AibingActivity()
+com.xiaobawang.zhongxue.yingyu.beidanci.BriefIntroductionActivity
+com.xiaobawang.zhongxue.yingyu.beidanci.BriefIntroductionActivity: BriefIntroductionActivity()
+com.xiaobawang.zhongxue.yingyu.beidanci.ListViewModeActivity
+com.xiaobawang.zhongxue.yingyu.beidanci.ListViewModeActivity: ListViewModeActivity()
+com.xiaobawang.zhongxue.yingyu.beidanci.MainActivity
+com.xiaobawang.zhongxue.yingyu.beidanci.MainActivity: MainActivity()
+com.xiaobawang.zhongxue.yingyu.beidanci.NotebookActivity
+com.xiaobawang.zhongxue.yingyu.beidanci.NotebookActivity: NotebookActivity()
+com.xiaobawang.zhongxue.yingyu.beidanci.R$color: int black
+com.xiaobawang.zhongxue.yingyu.beidanci.R$color: int gray
+com.xiaobawang.zhongxue.yingyu.beidanci.R$color: int white
+com.xiaobawang.zhongxue.yingyu.beidanci.R$drawable: int add_to_notebook
+com.xiaobawang.zhongxue.yingyu.beidanci.R$drawable: int aibing_1
+com.xiaobawang.zhongxue.yingyu.beidanci.R$drawable: int aibing_2
+com.xiaobawang.zhongxue.yingyu.beidanci.R$drawable: int background
+com.xiaobawang.zhongxue.yingyu.beidanci.R$drawable: int brief_1
+com.xiaobawang.zhongxue.yingyu.beidanci.R$drawable: int brief_2
+com.xiaobawang.zhongxue.yingyu.beidanci.R$drawable: int button_aibing_selector
+com.xiaobawang.zhongxue.yingyu.beidanci.R$drawable: int button_brief_selector
+com.xiaobawang.zhongxue.yingyu.beidanci.R$drawable: int button_default_selector
+com.xiaobawang.zhongxue.yingyu.beidanci.R$drawable: int button_listview_mode_selector
+com.xiaobawang.zhongxue.yingyu.beidanci.R$drawable: int button_not_remember_selector
+com.xiaobawang.zhongxue.yingyu.beidanci.R$drawable: int button_notbook_selector
+com.xiaobawang.zhongxue.yingyu.beidanci.R$drawable: int button_remember_selector
+com.xiaobawang.zhongxue.yingyu.beidanci.R$drawable: int default_1
+com.xiaobawang.zhongxue.yingyu.beidanci.R$drawable: int default_2
+com.xiaobawang.zhongxue.yingyu.beidanci.R$drawable: int delete
+com.xiaobawang.zhongxue.yingyu.beidanci.R$drawable: int download_button_normal
+com.xiaobawang.zhongxue.yingyu.beidanci.R$drawable: int download_button_pressed
+com.xiaobawang.zhongxue.yingyu.beidanci.R$drawable: int engmp3
+com.xiaobawang.zhongxue.yingyu.beidanci.R$drawable: int explain
+com.xiaobawang.zhongxue.yingyu.beidanci.R$drawable: int ic_launcher
+com.xiaobawang.zhongxue.yingyu.beidanci.R$drawable: int lexicon_background1
+com.xiaobawang.zhongxue.yingyu.beidanci.R$drawable: int lexicon_background2
+com.xiaobawang.zhongxue.yingyu.beidanci.R$drawable: int lexicon_icon
+com.xiaobawang.zhongxue.yingyu.beidanci.R$drawable: int listview_background
+com.xiaobawang.zhongxue.yingyu.beidanci.R$drawable: int listview_background_1
+com.xiaobawang.zhongxue.yingyu.beidanci.R$drawable: int listview_mode_1
+com.xiaobawang.zhongxue.yingyu.beidanci.R$drawable: int listview_mode_2
+com.xiaobawang.zhongxue.yingyu.beidanci.R$drawable: int not_remember_1
+com.xiaobawang.zhongxue.yingyu.beidanci.R$drawable: int not_remember_2
+com.xiaobawang.zhongxue.yingyu.beidanci.R$drawable: int notbook_1
+com.xiaobawang.zhongxue.yingyu.beidanci.R$drawable: int notbook_2
+com.xiaobawang.zhongxue.yingyu.beidanci.R$drawable: int remember_1
+com.xiaobawang.zhongxue.yingyu.beidanci.R$drawable: int remember_2
+com.xiaobawang.zhongxue.yingyu.beidanci.R$drawable: int select_lexicon_1
+com.xiaobawang.zhongxue.yingyu.beidanci.R$drawable: int select_lexicon_2
+com.xiaobawang.zhongxue.yingyu.beidanci.R$drawable: int selector_download_button
+com.xiaobawang.zhongxue.yingyu.beidanci.R$drawable: int selector_lexicon_background
+com.xiaobawang.zhongxue.yingyu.beidanci.R$drawable: int selector_lexicon_select
+com.xiaobawang.zhongxue.yingyu.beidanci.R$id: int aibing_adapter_editText_number
+com.xiaobawang.zhongxue.yingyu.beidanci.R$id: int aibing_adapter_textView_pre
+com.xiaobawang.zhongxue.yingyu.beidanci.R$id: int aibing_adapter_textview_after
+com.xiaobawang.zhongxue.yingyu.beidanci.R$id: int aibing_adapter_textview_time_type
+com.xiaobawang.zhongxue.yingyu.beidanci.R$id: int aibing_listview_show
+com.xiaobawang.zhongxue.yingyu.beidanci.R$id: int aibing_togglebutton_open
+com.xiaobawang.zhongxue.yingyu.beidanci.R$id: int button_addToNotebook
+com.xiaobawang.zhongxue.yingyu.beidanci.R$id: int button_aibing
+com.xiaobawang.zhongxue.yingyu.beidanci.R$id: int button_brief
+com.xiaobawang.zhongxue.yingyu.beidanci.R$id: int button_delete_notbook
+com.xiaobawang.zhongxue.yingyu.beidanci.R$id: int button_engmp3
+com.xiaobawang.zhongxue.yingyu.beidanci.R$id: int button_listviewMode
+com.xiaobawang.zhongxue.yingyu.beidanci.R$id: int button_notRemember
+com.xiaobawang.zhongxue.yingyu.beidanci.R$id: int button_notbook
+com.xiaobawang.zhongxue.yingyu.beidanci.R$id: int button_remember
+com.xiaobawang.zhongxue.yingyu.beidanci.R$id: int gridlayout
+com.xiaobawang.zhongxue.yingyu.beidanci.R$id: int listview_mode_adapter_button_add_to_notbook
+com.xiaobawang.zhongxue.yingyu.beidanci.R$id: int listview_mode_adapter_textView_explain_notbook
+com.xiaobawang.zhongxue.yingyu.beidanci.R$id: int listview_mode_adapter_textView_word
+com.xiaobawang.zhongxue.yingyu.beidanci.R$id: int listview_mode_textview_bar
+com.xiaobawang.zhongxue.yingyu.beidanci.R$id: int listview_notbookShow
+com.xiaobawang.zhongxue.yingyu.beidanci.R$id: int main_activity_button_select_lexicon
+com.xiaobawang.zhongxue.yingyu.beidanci.R$id: int main_activity_lexicon_icon
+com.xiaobawang.zhongxue.yingyu.beidanci.R$id: int notbook_toast_linearlayout
+com.xiaobawang.zhongxue.yingyu.beidanci.R$id: int notbook_toast_textview
+com.xiaobawang.zhongxue.yingyu.beidanci.R$id: int relativelayout_lowerBoundary
+com.xiaobawang.zhongxue.yingyu.beidanci.R$id: int relativelayout_scrollview
+com.xiaobawang.zhongxue.yingyu.beidanci.R$id: int scrollView_word
+com.xiaobawang.zhongxue.yingyu.beidanci.R$id: int scrollview_explain
+com.xiaobawang.zhongxue.yingyu.beidanci.R$id: int select_lexicon_dialog_download_button
+com.xiaobawang.zhongxue.yingyu.beidanci.R$id: int select_lexicon_dialog_imageview
+com.xiaobawang.zhongxue.yingyu.beidanci.R$id: int select_lexicon_dialog_listView
+com.xiaobawang.zhongxue.yingyu.beidanci.R$id: int select_lexicon_dialog_spinner
+com.xiaobawang.zhongxue.yingyu.beidanci.R$id: int textView_explain_notbook
+com.xiaobawang.zhongxue.yingyu.beidanci.R$id: int textView_word_notbook
+com.xiaobawang.zhongxue.yingyu.beidanci.R$id: int textview_explain
+com.xiaobawang.zhongxue.yingyu.beidanci.R$id: int textview_notbookShow
+com.xiaobawang.zhongxue.yingyu.beidanci.R$id: int textview_show
+com.xiaobawang.zhongxue.yingyu.beidanci.R$id: int textview_soundmark
+com.xiaobawang.zhongxue.yingyu.beidanci.R$id: int textview_word
+com.xiaobawang.zhongxue.yingyu.beidanci.R$id: int view
+com.xiaobawang.zhongxue.yingyu.beidanci.R$id: int webview_brief_introduction
+com.xiaobawang.zhongxue.yingyu.beidanci.R$layout: int aibing
+com.xiaobawang.zhongxue.yingyu.beidanci.R$layout: int aibing_adapter
+com.xiaobawang.zhongxue.yingyu.beidanci.R$layout: int brief_introduction
+com.xiaobawang.zhongxue.yingyu.beidanci.R$layout: int listview_mode
+com.xiaobawang.zhongxue.yingyu.beidanci.R$layout: int listview_mode_adapter
+com.xiaobawang.zhongxue.yingyu.beidanci.R$layout: int main_activity
+com.xiaobawang.zhongxue.yingyu.beidanci.R$layout: int notbook
+com.xiaobawang.zhongxue.yingyu.beidanci.R$layout: int notbook_listview_adapter
+com.xiaobawang.zhongxue.yingyu.beidanci.R$layout: int notbook_toast
+com.xiaobawang.zhongxue.yingyu.beidanci.R$layout: int select_lexicon_dialog
+com.xiaobawang.zhongxue.yingyu.beidanci.R$layout: int select_lexicon_dialog_adapter
+com.xiaobawang.zhongxue.yingyu.beidanci.R$string: int app_name
+com.xiaobawang.zhongxue.yingyu.beidanci.R$style: int AppBaseTheme
+com.xiaobawang.zhongxue.yingyu.beidanci.R$style: int AppTheme
+com.xiaobawang.zhongxue.yingyu.beidanci.SelectLexiconDialogActivity
+com.xiaobawang.zhongxue.yingyu.beidanci.SelectLexiconDialogActivity: SelectLexiconDialogActivity()

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="100dp"
+    android:background="@drawable/listview_background_1"
+    >
+   
+   <TextView
+       android:id="@+id/textView_word_notbook"
+       android:layout_width="400dp"
+       android:layout_height="wrap_content"
+       android:layout_alignParentLeft="true"
+       android:text="test"
+       android:layout_marginTop="5dp"
+       android:textSize="35sp"
+       android:layout_marginLeft="50dip"
+       android:ellipsize="end"
+       android:singleLine="true"
+       android:maxEms="11"
+        />    
+    
+   <TextView
+       android:id = "@+id/textView_explain_notbook"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_toRightOf="@id/textView_word_notbook"
+	   android:layout_alignBaseline="@id/textView_word_notbook"
+       android:textSize="35sp"
+       android:text = "我们"
+       android:ellipsize="end"
+       android:singleLine="true"
+       android:maxEms="11"
+       ></TextView>
+
+   <Button
+       android:id="@+id/button_delete_notbook"
+       android:layout_width="35dp"
+       android:layout_height="35dp"
+       android:layout_alignParentRight="true"
+       android:layout_centerVertical="true"
+       android:layout_marginRight="17dp"
+       android:background="@drawable/delete" />
+   
+</RelativeLayout>

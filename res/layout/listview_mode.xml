@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id = "@+id/listview_mode_textview_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/explain"
+        android:text="查看单词"
+        android:gravity="center_horizontal"
+        android:layout_marginLeft="15dip"
+        android:layout_marginTop="5dip"
+        android:textSize="30sp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        ></TextView>
+    
+    <ListView
+        android:id = "@+id/aibing_listview_show"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/listview_mode_textview_bar"
+        android:layout_marginTop="5dip"
+        android:layout_alignLeft="@id/listview_mode_textview_bar"
+        android:layout_marginRight="15dip" 
+        android:layout_marginBottom="5dip"
+        ></ListView>
+
+</RelativeLayout>

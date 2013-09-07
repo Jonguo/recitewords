@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/listview_background"
+    >
+   
+   <TextView
+       android:id="@+id/aibing_adapter_textView_pre"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentLeft="true"
+       android:text="第一次复习时间:"
+       android:textSize="30sp"
+       android:layout_marginLeft="50dip"
+       android:layout_marginTop="15dip"
+        />
+   
+   <EditText
+       android:id="@+id/aibing_adapter_editText_number"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_toRightOf="@id/aibing_adapter_textView_pre"
+       android:layout_alignBottom="@id/aibing_adapter_textView_pre"
+       android:layout_marginLeft="2dp"
+       android:text="5"
+       android:textSize="30sp"
+       android:cursorVisible="false"
+       android:singleLine="true"
+       android:inputType="number"
+       android:numeric="integer"
+       android:maxLength="2"
+       android:editable="false"
+       android:focusable="false"
+       android:background="@null"
+       />
+   <TextView
+       android:id="@+id/aibing_adapter_textview_time_type"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="30sp"
+       android:text="天"
+       android:layout_toRightOf="@+id/aibing_adapter_editText_number"
+       android:layout_alignBottom="@id/aibing_adapter_textView_pre" 
+       android:layout_marginLeft="2dp"
+   />
+   
+   <TextView
+       android:id="@+id/aibing_adapter_textview_after"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="30sp"
+       android:text="后"
+       android:layout_toRightOf="@id/aibing_adapter_textview_time_type"
+       android:layout_alignBottom="@id/aibing_adapter_textView_pre" 
+       android:layout_marginLeft="2dp"
+   />
+   
+   
+</RelativeLayout>

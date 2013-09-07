@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id = "@+id/textview_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/explain"
+        android:gravity="center_horizontal"
+        android:layout_marginLeft="15dip"
+        android:layout_marginTop="10dip"
+        android:textSize="30sp"
+        android:text="艾宾浩斯计划"
+        ></TextView>
+   
+<!--     <TextView -->
+<!--         android:id = "@+id/review_times"  -->
+<!--         android:layout_width="wrap_content"  -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_alignBottom="@id/textview_show" -->
+<!--         android:text="总共复习次数:" -->
+<!--         android:textSize="30sp" -->
+<!--         android:layout_toRightOf="@id/textview_show" -->
+<!--         android:layout_marginLeft="5dip" -->
+<!--         /> -->
+    
+       
+<!--      <EditText -->
+<!--         android:id="@+id/textview_times_number" -->
+<!--         android:layout_width="wrap_content"  -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:textSize="30sp"  -->
+<!--         android:text="8" -->
+<!--         android:layout_toRightOf="@id/review_times" -->
+<!--         android:layout_marginLeft="5dip" -->
+<!--         android:cursorVisible="false" -->
+<!--         android:singleLine="true" -->
+<!--         android:inputType="number" -->
+<!--         android:numeric="integer" -->
+<!--         android:maxLength="2" -->
+<!--         android:layout_alignBottom="@id/textview_show" -->
+<!--          /> -->
+    
+   
+    <Button
+        android:id = "@+id/button_brief"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_alignBottom="@id/textview_show"
+        android:background="@drawable/button_brief_selector"  
+        android:layout_alignParentRight="true" 
+        android:layout_marginRight="5dp"  
+        />
+    <ToggleButton
+        android:id="@+id/aibing_togglebutton_open"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content" 
+        android:layout_toLeftOf="@id/button_brief"
+        android:layout_alignBottom="@id/textview_show"
+        android:background="@drawable/explain"
+        android:textOn="关闭"
+        android:textOff="开启"
+        android:textSize="30sp"
+        android:layout_marginRight="5dp"
+        android:singleLine="true"
+    />
+<!--      <Button -->
+<!--         android:id="@+id/button_default" -->
+<!--         android:layout_width="wrap_content" -->
+<!--         android:layout_height="wrap_content"  -->
+<!--         android:layout_toLeftOf="@id/button_brief" -->
+<!--         android:layout_alignBottom="@id/textview_show" -->
+<!--         android:background="@drawable/button_default_selector" -->
+<!--         android:layout_marginRight="5dp" -->
+<!--         /> -->
+
+     
+     
+    <ListView
+        android:id = "@+id/aibing_listview_show"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/textview_show"
+        android:layout_marginTop="5dip"
+        android:layout_alignLeft="@id/textview_show"
+        android:layout_marginRight="15dip" 
+        android:layout_marginBottom="5dip"
+
+        ></ListView>
+
+</RelativeLayout>

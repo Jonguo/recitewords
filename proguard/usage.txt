@@ -1,0 +1,146 @@
+com.recite.assist.AibingLogic:
+    339:339:private void updateQueue(com.recite.entity.Word)
+com.recite.assist.GradePathControl
+com.recite.assist.HelpMain:
+    private android.content.Context context
+    21:24:private HelpMain(android.content.Context)
+com.recite.assist.Tool:
+    8:14:public static java.io.File findFile(java.io.File[],java.lang.String)
+com.recite.assist.Values:
+    public static final java.lang.String INTERNAL_SDCARD
+    public static final java.lang.String EXTERNAL_SDCARD
+    public static final int typeFileWords
+    public static final int typeOldWords
+    public static final int typeInsertWords
+    public static final int typeUpdateWords
+    public static final int typeNotRememberWords
+    public static final int typeQueueWords
+    17:17:public Values()
+com.recite.entity.Word:
+    45:49:public boolean setReviewTime(long)
+com.recite.sql.AibingOperate:
+    private com.recite.sql.AibingOperate instance
+com.recite.sql.FeedReaderContract:
+    7:7:private FeedReaderContract()
+com.recite.sql.FeedReaderContract$Aibing:
+    37:37:public FeedReaderContract$Aibing()
+com.recite.sql.FeedReaderContract$AllUnitName:
+    9:9:public FeedReaderContract$AllUnitName()
+com.recite.sql.FeedReaderContract$ImportedBookName:
+    16:16:public FeedReaderContract$ImportedBookName()
+com.recite.sql.FeedReaderContract$Notebook:
+    24:24:public FeedReaderContract$Notebook()
+com.recite.sql.MYSQLOpenHelper:
+    private static final int DEFAULTVERSION
+com.recite.sql.NotebookOperate:
+    18:20:private NotebookOperate()
+    21:24:public NotebookOperate(android.content.Context)
+com.weixue.api.AutoStartService
+com.weixue.api.BootCompletedReceiver
+com.weixue.api.WeiXueActivity:
+    44:44:protected com.xiaobawang.qita.geren.api.UserInfo getUserInfo()
+com.weixue.constant.api.Constant
+com.weixue.net.api.NetworkUtil
+com.xiaobawang.colordict.api.TranslationUtil
+com.xiaobawang.constant.api.FilePath
+com.xiaobawang.constant.api.PackageName
+com.xiaobawang.launcher.api.WeiXueUtil:
+    7:7:public WeiXueUtil()
+com.xiaobawang.qita.geren.api.JSONHelper
+com.xiaobawang.qita.geren.api.Level
+com.xiaobawang.qita.geren.api.UserInfo:
+    public static final java.lang.String NULL
+    public static final java.lang.String GENDER_MALE
+    public static final java.lang.String GENDER_FEMALE
+    public static final java.lang.String PLATFORM_PRESCHOOL
+    public static final java.lang.String PLATFORM_PRIMARYSCHOOL
+    public static final java.lang.String PLATFORM_MIDDLESCHOOL
+    public static final java.lang.String SCHOOLING_SIX_THREE
+    public static final java.lang.String SCHOOLING_FIVE_FOUR
+    public static final int MAX_HOBBY_LENGTH
+    89:101:public int getSchooling()
+    140:140:public boolean isRegistered()
+    144:144:public boolean isTestUser()
+    148:148:public java.lang.String getPackedInfo()
+com.xiaobawang.qita.geren.api.UserInfoGarbageUtil
+com.xiaobawang.qita.geren.api.UserInfoHelper:
+    public static final int USER_COUNT
+    public static final long CUR_USERID_USERID
+    public static final long USER_ID_1
+    public static final long USER_ID_2
+    public static final long USER_ID_3
+    public static final long USER_ID_4
+    public static final long PRESCHOOL_TEST_USERID
+    public static final long PRIMARYSCHOOL_TEST_USERID
+    public static final long MIDDLESCHOOL_TEST_USERID
+    49:53:public void setCurrentUserId(long)
+    56:69:public boolean hasRegisteredUser()
+    73:75:public void delete(long)
+    78:102:public void update(com.xiaobawang.qita.geren.api.UserInfo)
+    173:199:public void insert(com.xiaobawang.qita.geren.api.UserInfo)
+com.xiaobawang.qita.geren.api.UserInfoHelper2
+com.xiaobawang.qita.geren.api.UserInfoUtil
+com.xiaobawang.qita.geren.api.Users:
+    public static final java.lang.String AUTHORITY
+    9:11:private Users()
+com.xiaobawang.qita.geren.api.Users$User:
+    public static final java.lang.String CONTENT_TYPE
+    public static final java.lang.String CONTENT_ITEM_TYPE
+    public static final java.lang.String DEFAULT_SORT_ORDER
+    public static final java.lang.String USERNAME
+    public static final java.lang.String PASSWORD
+    public static final java.lang.String NAME
+    public static final java.lang.String SCHOOL
+    public static final java.lang.String PLATFORM
+    public static final java.lang.String SCHOOLING
+    public static final java.lang.String GRADE
+    public static final java.lang.String COURSEVERSION
+    public static final java.lang.String AVATARPATH
+    public static final java.lang.String GENDER
+    public static final java.lang.String BIRTHDAY
+    public static final java.lang.String HOMETOWN
+    public static final java.lang.String QQ
+    public static final java.lang.String SIGNATURE
+    public static final java.lang.String EMAIL
+    public static final java.lang.String HOBBY
+    public static final java.lang.String LEVEL
+    14:16:private Users$User()
+com.xiaobawang.qita.guiji.api.AppRuntimeInfoHelper2
+com.xiaobawang.qita.guiji.api.AppRuntimeInfos:
+    public static final java.lang.String AUTHORITY
+    9:9:private AppRuntimeInfos()
+com.xiaobawang.qita.guiji.api.AppRuntimeInfos$AppRuntimeInfo:
+    public static final java.lang.String CONTENT_TYPE
+    public static final java.lang.String CONTENT_ITEM_TYPE
+    public static final java.lang.String DEFAULT_SORT_ORDER
+    public static final java.lang.String USERNAME
+    public static final java.lang.String APPNAME
+    public static final java.lang.String PACKAGENAME
+    public static final java.lang.String DATE
+    public static final java.lang.String TODAYRUNTIME
+    13:13:private AppRuntimeInfos$AppRuntimeInfo()
+com.xiaobawang.qita.guiji.api.StudyPathInfo
+com.xiaobawang.qita.guiji.api.StudyPathInfoHelper
+com.xiaobawang.qita.guiji.api.StudyPathInfoNetworkData
+com.xiaobawang.qita.guiji.api.StudyPathInfoNetworkData$Data
+com.xiaobawang.qita.guiji.api.StudyPathInfoNetworkData$RuntimeData
+com.xiaobawang.util.api.AppUtil:
+    8:8:public AppUtil()
+    26:29:public static void open(android.app.Activity,java.lang.String)
+com.xiaobawang.util.api.DownloadMoreUtil:
+    private static final java.lang.String EXTRA_STRING_PACKAGENAME
+    10:10:public DownloadMoreUtil()
+    22:38:public static void open(android.app.Activity,boolean)
+    41:42:public static void openWithGrade(android.app.Activity)
+com.xiaobawang.util.api.PackageNameUtil
+com.xiaobawang.util.api.PersonalCenterUtil
+com.xiaobawang.util.api.ServiceUtil
+com.xiaobawang.zhongxue.yingyu.beidanci.BuildConfig
+com.xiaobawang.zhongxue.yingyu.beidanci.R
+com.xiaobawang.zhongxue.yingyu.beidanci.R$attr
+com.xiaobawang.zhongxue.yingyu.beidanci.R$color
+com.xiaobawang.zhongxue.yingyu.beidanci.R$drawable
+com.xiaobawang.zhongxue.yingyu.beidanci.R$id
+com.xiaobawang.zhongxue.yingyu.beidanci.R$layout
+com.xiaobawang.zhongxue.yingyu.beidanci.R$string
+com.xiaobawang.zhongxue.yingyu.beidanci.R$style
