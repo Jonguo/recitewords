@@ -1,21 +1,21 @@
 # view res/layout/select_lexicon_dialog_adapter.xml #generated:3
 -keep class com.recite.widgets.AlwaysMarqueeTextView { <init>(...); }
 
-# view AndroidManifest.xml #generated:30
+# view AndroidManifest.xml #generated:33
 -keep class com.xiaobawang.zhongxue.yingyu.beidanci.AibingActivity { <init>(...); }
 
-# view AndroidManifest.xml #generated:36
+# view AndroidManifest.xml #generated:40
 -keep class com.xiaobawang.zhongxue.yingyu.beidanci.BriefIntroductionActivity { <init>(...); }
 
-# view AndroidManifest.xml #generated:27
+# view AndroidManifest.xml #generated:29
 -keep class com.xiaobawang.zhongxue.yingyu.beidanci.ListViewModeActivity { <init>(...); }
 
 # view AndroidManifest.xml #generated:17
 -keep class com.xiaobawang.zhongxue.yingyu.beidanci.MainActivity { <init>(...); }
 
-# view AndroidManifest.xml #generated:24
+# view AndroidManifest.xml #generated:25
 -keep class com.xiaobawang.zhongxue.yingyu.beidanci.NotebookActivity { <init>(...); }
 
-# view AndroidManifest.xml #generated:39
+# view AndroidManifest.xml #generated:44
 -keep class com.xiaobawang.zhongxue.yingyu.beidanci.SelectLexiconDialogActivity { <init>(...); }
 

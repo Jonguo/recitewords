@@ -15,7 +15,8 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity android:name="com.xiaobawang.zhongxue.yingyu.beidanci.MainActivity"
-                  android:label="@string/app_name">
+                  android:label="@string/app_name"
+                  android:screenOrientation="landscape">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                  <category android:name="android.intent.category.LAUNCHER" />
@@ -23,24 +24,28 @@
         </activity>
         <activity
             android:name = "com.xiaobawang.zhongxue.yingyu.beidanci.NotebookActivity"
-            android:label = "@string/app_name"></activity>
+            android:label = "@string/app_name"
+            android:screenOrientation="landscape"></activity>
         <activity
             android:name = "com.xiaobawang.zhongxue.yingyu.beidanci.ListViewModeActivity"
-            android:label = "@string/app_name"></activity>
+            android:label = "@string/app_name"
+            android:screenOrientation="landscape"></activity>
         <activity
             android:name = "com.xiaobawang.zhongxue.yingyu.beidanci.AibingActivity"
             android:label = "@string/app_name"
             android:windowSoftInputMode="stateHidden" 
+            android:screenOrientation="landscape"
             >
         </activity>   
         <activity
             android:name = "com.xiaobawang.zhongxue.yingyu.beidanci.BriefIntroductionActivity"
-            android:label = "@string/app_name"></activity>     
+            android:label = "@string/app_name"
+            android:screenOrientation="landscape"></activity>     
         <activity
             android:name = "com.xiaobawang.zhongxue.yingyu.beidanci.SelectLexiconDialogActivity"
             android:label = "@string/app_name"
             android:theme="@android:style/Theme.DeviceDefault.Light.Dialog"
-            ></activity>                  
+            android:screenOrientation="landscape"></activity>                  
     </application>
 
 </manifest>
